@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background:rgb(14, 13, 13);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+}
+.nav_bar{
+    z-index: 1254;
+    position: fixed;
+  
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.logo{
+    background:url(logo.PNG);
+    background-size: cover;
+    margin-left: 5%;
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.nav_bar ul{
+    list-style: none;
+    display: flex;
+    margin-right: 100px;
+}
+.nav_bar ul li{
+   padding: 15px 20px;
+   
+}
+.nav_bar ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: 0.2s ease-out; 
+    font-size: 20px;
+  
+}
+.nav_bar ul li a:hover {
+    color:rgba(108, 7, 224, 0.767);
+}
+#first{
+    
+    width: 100%;
+    height: 500px;
+    background: url(first.png);
+    background-size: cover;
+    
+}
+.slider{
+   
+    width: 400%;
+    height: 450px;
+    margin-left: auto;
+    margin-top: 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content:center;
+    transition: 1.5s ease-out;
+}
+.sec{
+
+  width: 100%;
+  height: 400px;
+  margin-top: 50px;
+  margin-left: 10px;
+  cursor: pointer;
+  z-index: 4;
+}
+#sec1{
+    background: url(slider/g1.jpg);
+    background-size: cover;
+    transition: 2s ease-out;
+}
+#sec2{
+    background: url(slider/g2.jpg);
+    background-size: cover;
+    transition: 2s ease-out;
+    
+}
+#sec3{
+    background: url(slider/g3.jpg);
+    background-size: cover;
+    transition: 2s ease-out;
+}
+#sec4{
+    background: url(slider/g4.jpg);
+    background-size: cover;
+    transition: 2s ease-out;
+}
+#sec5{
+    background: url(slider/g5.jpg);
+    background-size: cover;
+    transition: 2s ease-out;
+}
+#sec6{
+    background: url(slider/g6.jpg);
+    background-size: cover;
+    transition: 2s ease-out;
+}
+#sec7{
+    background: url(slider/g7.jpg);
+    background-size: cover;
+    transition: 2s ease-out;
+}
+#sec8{
+    background: url(slider/g8.jpg);
+    background-size: cover;
+    transition: 2s ease-out;
+}
+.sec div{
+    background-color: rgb(32, 32, 32);
+  
+    width: 100%;
+    height: 100%;
+    display: block;
+    opacity: 0%;
+    transition: 0.5s ease-out;
+}
+.sec :hover {
+   opacity: 50%;
+}
+.container{
+
+ width: 100%;
+ margin-top: 10px;
+ margin-bottom: 300px;
+ padding-top: 30px;
+ display: grid;
+ grid-template-columns: 20% 20% 20% 20% 20% 20%;
+ align-items: center;
+}
+.card{
+    position: relative;
+    transform: translateX(15%);
+    width: 60%;
+    height: 300px;
+    margin-left:7%;
+}
+.card .img{
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    max-width:100%;
+    transition: 0.5s ease-out;
+    border-radius: 7px;
+}
+.card:hover .img{
+    opacity:50%;
+    }
+.title{
+   
+    color: white;
+    font-size: 25px;
+}    
+.text_b{
+    margin-left: 50px;
+    margin-top: 100px;
+    color: white;
+    font-size: 30px;
+    display: inline-block;
+
+
+}
+.card p{
+    font-size: 18px;
+    color: rgb(0, 139, 30);
+    padding: 3px;
+    margin-top: 5px;
+    text-transform: uppercase;
+    display: inline-block;
+    border-radius: 10px;
+}
+.see_all{
+    position: absolute;
+    font-size: 25px;
+    color: rgb(48, 126, 179);
+    margin-left:89%;
+    transform: translateY(-35px);
+    cursor: pointer;
+    text-decoration:underline;
+}
